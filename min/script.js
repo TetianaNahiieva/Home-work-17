@@ -12,7 +12,6 @@ function showMessage() {
   }
   showMessage();
 
-
 let userName = 'Вася';
 function showMessage() {
   userName = "Петя"; 
@@ -30,8 +29,7 @@ function myConcat(separator) {
     for (i = 1; i < arguments.length; i++) {
        result += arguments[i] + separator;
     }
-    return result;
-    
+    return result; 
  }
  console.log(myConcat());
 
@@ -39,9 +37,7 @@ function myConcat(separator) {
 -1, якщо перше число менше, ніж друге; 
 1 - якщо перше число більше, ніж друге; 
 0 - якщо числа рівні.*/
-
 function min(a, b) {
-    
     if (b > a)  { 
       return -1;
     }
@@ -61,7 +57,6 @@ function min(a, b) {
 function factorial(n) {
     return n ? n * factorial(n - 1) : 1;
   }
-  
   alert( factorial(5) ); 
 
 //5 Напиши функцію, яка приймає три окремі цифри і перетворює їх в одне число. Наприклад: цифри 1, 4, 9 перетворяться в число 149.
@@ -69,8 +64,6 @@ function min(a = '1', b = '4', c = '9') {
     return a + b + c;  
   }
   console.log(min());
-  
-
 //6 Напиши функцію, яка приймає довжину і ширину прямокутника і обчислює його площу. Якщо в функцію передали 1 параметр, то вона обчислює площу квадрата.
 function min(a, b) {
     if (a) { 
